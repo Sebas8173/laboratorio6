@@ -31,4 +31,4 @@ jobs:
         run: echo "Despliegue simulado exitosamente"
 
       - name: build
-        run: npm ci && npm run build
+        run: npm ci
