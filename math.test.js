@@ -6,7 +6,7 @@ test('Factorial de 5 debe ser 120', () => {
 
 const fibonacciIterativo = require('./math').fibonacciIterativo ;
 
-test('Fibonacci iterativo de 5 debe imprimir 0, 1, 1, 2, 3', () => {
+test("Fibonacci iterativo de 5 debe imprimir 0, 1, 1, 2, 3  ", () => {
     console.log = jest.fn(); // Mock de console.log
     fibonacciIterativo(5);
     expect(console.log).toHaveBeenNthCalledWith(1, 0);
